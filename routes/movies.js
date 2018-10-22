@@ -3,7 +3,7 @@ const {Genre} = require('../models/genre');
 const mongoose = require('mongoose');
 const express = require('express');
 const router = express.Router();
-const auth = require('../midlewares/auth');
+const auth = require('../midllwares/auth');
 
 
 router.get('/', async (req, res) => {

@@ -4,7 +4,7 @@ const {Customer} = require('../models/customer');
 const mongoose = require('mongoose');
 const express = require('express');
 const Fawn = require('fawn');
-const auth = require('../midlewares/auth');
+const auth = require('../midllwares/auth');
 const router = express.Router();
 
 router.get('/', async (req, res) => {
