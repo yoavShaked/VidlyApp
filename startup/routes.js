@@ -7,7 +7,7 @@ const users = require('../routes/users');
 const auth = require('../routes/auth');
 const error = require('../midllwares/error');
 
-const url = '/vidly.com/api';
+const url = '/api';
 
 module.exports = function (app) {
     app.use(express.json());
